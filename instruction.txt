@@ -1,0 +1,5 @@
+cd venv/scripts
+activate.bat
+cd ../..
+python yolov9/detect.py --weights best.pt --source 0 --conf 0.8 --device 0
+python client.py
